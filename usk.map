@@ -1,0 +1,26 @@
+# sector floor ceiling light count [x y outgoing-wall-material]...
+# Sector IDs start at 0. Shared opposite edges become portals.
+sector 0.00 2.75 0.97 6   0 0 s   7 0 h   7 2 s   7 4 h   7 6 s   0 6 s
+sector 0.00 2.25 0.71 6   7 2 s  10 2 h  12 2 s  15 2 h  15 4 s   7 4 s
+sector 0.14 3.40 0.80 8   8 -3 r   9 -5 s  14 -5 r  15 -3 s  15 0 s  12 2 h  10 2 s   8 0 s
+sector 0.22 3.65 0.91 12  15 1 s  18 -1 c  22 -1 s  25 1 h  25 2 h  25 4 h  25 5 s  22 7 s  18 7 s  15 5 h  15 4 s  15 2 h
+sector 0.22 2.60 0.67 4   25 2 s  29 2 h  29 4 s  25 4 s
+sector 0.05 2.90 0.66 6   18 7 h  22 7 r  24 9 s  24 12 r  16 12 s  16 9 s
+sector 0.42 4.10 0.94 10  29 1 s  32 -1 c  37 -1 s  39 1 c  39 5 s  37 7 c  32 7 s  29 5 h  29 4 s  29 2 h
+
+# spawn sector x y angle-degrees
+spawn 0 1.8 3.0 0
+door 3 4
+
+thing ammo   0  5.4  2.1
+thing guard  2 13.4 -2.8
+thing key    2 11.1 -2.5
+thing health 2  9.4 -1.2
+thing guard  3 19.8  2.3
+thing guard  3 22.9  5.3
+thing guard  5 20.1 10.0
+thing health 5 17.4 10.4
+thing ammo   5 22.7 10.4
+thing guard  6 33.5  1.4
+thing guard  6 35.2  4.5
+thing exit   6 37.8  3.0
